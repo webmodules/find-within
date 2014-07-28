@@ -1,0 +1,34 @@
+{
+  "name": "find-within",
+  "version": "0.0.0",
+  "description": "Traverses \"down\" the child nodes hierarchy in order to find a Node within",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/webmodules/find-within.git"
+  },
+  "keywords": [
+    "browser",
+    "dom",
+    "find",
+    "traverse",
+    "first",
+    "firstChild",
+    "last",
+    "lastChild",
+    "text",
+    "node"
+  ],
+  "author": "Nathan Rajlich <nathan@tootallnate.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webmodules/find-within/issues"
+  },
+  "homepage": "https://github.com/webmodules/find-within"
+}

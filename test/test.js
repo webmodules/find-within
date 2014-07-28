@@ -4,6 +4,18 @@ var assert = require('assert');
 
 describe('find-within', function () {
 
+  it('should find an Element within a div', function () {
+    var div = document.createElement('div');
+    div.innerHTML = '<b><u><i>foo</i></u></b>';
+
+    var d = find(div, Node.ELEMENT_NODE);
+
+    assert(d);
+    assert.equal(d, div);
+    assert.equal(d.nodeType, Node.ELEMENT_NODE);
+    assert.equal(d.nodeName, 'DIV');
+  });
+
   it('should find a TextNode within a div', function () {
     var div = document.createElement('div');
     div.innerHTML = '<b><u><i>foo</i></u></b>';

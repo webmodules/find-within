@@ -1,6 +1,6 @@
 {
   "name": "find-within",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Traverses \"down\" the child nodes hierarchy in order to find a Node within",
   "main": "index.js",
   "directories": {
